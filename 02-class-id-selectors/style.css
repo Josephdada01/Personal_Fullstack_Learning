@@ -1,0 +1,17 @@
+.one{
+    background-color: lightpink;
+    font-family: Verenda, "DejaVu Sans", sans-serif;
+}
+#one{
+    color: blue;
+    font-size: 36px;
+}
+.two{
+    background-color: lightpink;
+    font-family: Verenda, "DejaVu Sans", sans-serif;
+    font-size: 20px;
+}
+#two{
+    background-color: lightgreen;
+    font-size: 24px;
+}
