@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+}
+/* selecting all the divs inside of the .flex-container */
+.flex-container div{
+    background: peachpuff;
+    border: 4px solid blueviolet;
+    height: 100px;
+    width: 250px;
+    /* shorthand of flex-grow, flex-shrink & flex-basis */
+    flex: 1 1 auto; 
+}
+/* selecting div two to not to shrink less than the given size
+even when the browser go smaller*/
+.flex-container .two{
+    flex-shrink: 0;
+}
