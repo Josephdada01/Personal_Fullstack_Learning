@@ -1,0 +1,15 @@
+/* this rule will only select the child */
+
+main > div {
+    font-style: italic;
+    color:rgb(29, 26, 22);
+    font-weight: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* this rule will only select the grand-child */
+main > div > div {
+   background-color: red;
+   margin: 20px;
+   padding: 5px;
+}

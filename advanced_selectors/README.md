@@ -1,3 +1,4 @@
+This learning will teach me how to select divs in an advanced ways
 Learning Outcomes:
 
 Understand how to use parent and sibling selectors
