@@ -13,3 +13,21 @@ main > div > div {
    margin: 20px;
    padding: 5px;
 }
+
+/*this rule will only select the div with the class child group2 */
+.group1 + div {
+    border: solid black 2px;
+}
+
+/*
+Phrased another way, the child selector will select an
+element that is one level of indentation down.
+In order to select an element that is adjacent to our target, 
+or on the same level of indentation, we can use the adjacent sibling combinator +.
+*/
+.group1 + div + div {
+    border: solid green 2px;
+    border-radius: 0.5cm;
+    margin-top: 10px;
+    justify-content: center;
+}
