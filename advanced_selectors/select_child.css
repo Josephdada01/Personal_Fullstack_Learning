@@ -25,9 +25,20 @@ element that is one level of indentation down.
 In order to select an element that is adjacent to our target, 
 or on the same level of indentation, we can use the adjacent sibling combinator +.
 */
+
+/* this will only select the div with the div with the class child group3 */
 .group1 + div + div {
     border: solid green 2px;
     border-radius: 0.5cm;
     margin-top: 10px;
     justify-content: center;
+}
+
+/*
+I can select all elements sibilings and not the only
+first one by using sibiling combinator
+*/
+
+.group1 ~ div {
+    background-color: grey;
 }
